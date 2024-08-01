@@ -1,0 +1,21 @@
+
+
+
+
+.container1{
+    background-image: url("https://preview.colorlib.com/theme/vegefoods/images/bg_2.jpg.webp");
+    background-position: center;
+text-align: center;
+background-repeat: no-repeat;
+position: relative;
+background-size: cover;
+padding: 250px;
+
+
+}
+
+.menu{
+    color: white;
+    /* font-size: 100px; */
+    /* font-weight: 700; */
+}
