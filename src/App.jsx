@@ -1,11 +1,11 @@
 
 import Navbar from "./Navbar"
 import Backroundimg from "./Backroundimg"
-import Fruit from "../Fruit"
+// import Fruit from "../Fruit"
 import Vegtable from "../Vegtable"
 import Date from "../Date"
-import Customer from "../Customer"
-import Icon from "../Icon"
+// import Customer from "../Customer"
+// import Icon from "../Icon"
 import Email from "../Email"
 import End from "../End"
 function App() {
@@ -19,11 +19,11 @@ function App() {
 
 <Navbar/><br />
    <Backroundimg/> <br /> 
-<Fruit/><br /><br />
+{/* <Fruit/><br /><br /> */}
 <Vegtable/><br /><br />
 <Date/><br />
-<Customer/><br /><br />
-<Icon/><br /><br /><br /><br />
+{/* <Customer/><br /><br /> */}
+{/* <Icon/><br /><br /><br /><br /> */}
 <Email/><br /><br />
 <End/>
     </>
