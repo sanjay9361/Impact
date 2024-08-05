@@ -1,32 +1,46 @@
-
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Navbar from "./Navbar"
-import Backroundimg from "./Backroundimg"
-// import Fruit from "../Fruit"
-import Vegtable from "../Vegtable"
-import Date from "../Date"
-// import Customer from "../Customer"
-// import Icon from "../Icon"
-import Email from "../Email"
-import End from "../End"
+
+
+import NewPage from "../NewPage"
+import Home from "./Home"
+import SignInpage from "./SignInpage"
+
+
+
+
 function App() {
-  
+
 
   return (
-    <>
-      
 
 
 
-<Navbar/><br />
-   <Backroundimg/> <br /> 
-{/* <Fruit/><br /><br /> */}
-<Vegtable/><br /><br />
-<Date/><br />
-{/* <Customer/><br /><br /> */}
-{/* <Icon/><br /><br /><br /><br /> */}
-<Email/><br /><br />
-<End/>
-    </>
+
+
+
+
+
+
+
+
+
+    <BrowserRouter>
+
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<SignInpage />} />
+        <Route path="/Home" element={<Home/>}></Route>
+        <Route path="/NewPage" element={<NewPage />}></Route>
+
+      </Routes>
+
+    </BrowserRouter>
+
+
+
+
+
   )
 }
 
