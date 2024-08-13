@@ -5,7 +5,7 @@ function End(){
 return(
     <>
 
-   <footer className="container-fluid">
+   <footer className="container-fluid1">
 
 <div className="row">
 

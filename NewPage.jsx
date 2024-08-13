@@ -1,31 +1,26 @@
+import { useEffect, useState } from "react";
 
 
 
-function NewPage({picture}) {
+function NewPage({ isTrue }) {
 
-  console.log(picture);
-  
+    console.log(isTrue);
+
+
+    const [hello, join] = useState([])
+
 
 
     return (
-
-        // {
-        //     color.map(call => (
-
-
-        //         <div className="card" style={{ width: ' 15rem' }} >
-        //             <img src={call.color} className="card-img-top" />
-        //             <div className="card-body">
-        //                 <p className="card-text text-center" >{call.color}</p>
+        <>
+            <div className="container4">
+                <div className="row justify-content-around">
 
 
-        //             </div>
 
-        //         </div>
-        //     ))
-        // }
-<>
-</>
+                </div>
+            </div>
+        </>
 
 
 

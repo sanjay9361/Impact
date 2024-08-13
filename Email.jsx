@@ -6,7 +6,7 @@ function Email(){
     return(
         <>
         
-     <footer className="container-fluid">
+     <footer className="container-fluid1">
         <div className="row justify-content-around">
 <div className="col-md-5">
 

@@ -1,0 +1,59 @@
+.signincontainer {
+    background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-food-food-festival-retro-style-food-picture-image_1029115.jpg");
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    padding: 50px;
+    font-style: italic;
+
+
+}
+
+.vtv {
+    background-color: rgb(233, 214, 187);
+    color: rgb(179, 0, 0);
+    font-style: oblique;
+
+    border-radius: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 400px;
+
+
+
+}
+
+.vtv1 {
+    background-color: rgb(223, 209, 188);
+    font-style: italic;
+
+    color: rgb(34, 5, 139);
+    width: 390px;
+    height: 40px;
+    border-radius: 110px;
+
+}
+
+.vtv1:hover {
+    background-color: rgb(189, 119, 15);
+    color: yellow;
+}
+
+#bbb {
+    color: black;
+    background-color: rgb(223, 209, 188);
+    border: none;
+    
+    width: 450px;
+    height: 600px;
+    margin-top: 1px;
+    margin-left: 500px;
+    box-shadow: 0 0 100px 0  goldenrod;
+}
+
+.one {
+    margin-right: 280px;
+}
