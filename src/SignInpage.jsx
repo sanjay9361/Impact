@@ -2,8 +2,8 @@
 
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
-
-
+import { Link } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -38,7 +38,7 @@ const SignInpage = () => {
             password: ten.password
         })
 
-        
+
 
         let balld = document.getElementById("ball")
 
@@ -60,14 +60,15 @@ const SignInpage = () => {
             passerror.style.color = "red"
         }
         else if (ten.name == "sanjay" && ten.password == "123") {
-            
-          alert=(toast.success("Welcome!"));
+
+
             Navigate('/Home')
 
         }
         else if (ten.name != "sanjay" || ten.password != "123") {
             useerror.innerHTML = ("username invalid")
             useerror.style.color = "red"
+            alert = (toast.warning("Wrong!"));
             passerror.innerHTML = ("userpassword invalid")
             passerror.style.color = "red"
 
@@ -101,7 +102,7 @@ const SignInpage = () => {
 
 
 
-                    <div className="col-md-6 text-center mt-5">
+                    <div className="col-md-6 text-center mt-5 mb-5">
 
 
                         <div id="bbb" className="card" >
@@ -110,52 +111,55 @@ const SignInpage = () => {
                                 <h6 className="card-subtitle mb-2 text-body-secondary">Fresh Fruites & Vegtables</h6><br />
 
                                 <div>
-                                    <h3 id="ball">
+                                    <div id="ball">
                                         <small className="one">Username</small><br /><br />
-                                        <i class="bi bi-person-fill"></i>
+                                        <i id="font" class="bi bi-person-fill"></i>
                                         <input className="vtv" type="text" name="name" placeholder="enter your name" value={ten.name} onChange={setvalue} />
 
-                                    </h3>
+                                    </div>
                                     <small id="error1"></small>
                                 </div><br />
 
-                                <div>
-                                    <h3 id="bat">
+                                <div><br /><br />
+                                    <div id="bat">
                                         <small className="one">Password</small><br /><br />
-                                        <i class="bi bi-person-fill-lock"></i>
+                                        <i id="font" class="bi bi-person-fill-lock"></i>
                                         <input className="vtv" type="text" name="password" placeholder="enter your password" value={ten.password} onChange={setvalue} /><br />
-                                    </h3>
+                                    </div>
                                     <small id="error2"></small>
                                 </div>
 
 
                                 <br />
-                                <h4><button className="vtv1" onClick={direct}>Login </button>
-                                </h4> <br />
-                                
-                                                      
-<div className="row justify-content-center">
-    <div className="col-md-2">
-    <h4><i class="bi bi-facebook"></i></h4>
-    </div>
-    <div className="col-md-2">
-    <h4><i class="bi bi-twitter"></i></h4>
-    </div>
-    <div className="col-md-2">
-    <h4><i class="bi bi-google"></i></h4>
-    </div>
-</div>
+                                <h4><button className="vtv1 " onClick={direct}>Login </button><br />
+                                    <br />
 
+
+                                    <div className="row justify-content-center">
+                                        <div className="col-md-2">
+                                            <h4><i class="bi bi-facebook"></i></h4>
+                                        </div>
+                                        <div className="col-md-2">
+                                            <h4><i class="bi bi-twitter"></i></h4>
+                                        </div>
+                                        <div className="col-md-2">
+                                            <h4><i class="bi bi-google"></i></h4>
+                                        </div>
+                                    </div>
+                                </h4>
+                                <div >
+                                <Link to={"/Signup"} >  <Button variant="primary">SignUp</Button></Link>
+                                </div>
 
 
                             </div>
                         </div>
 
-
-
-
                     </div>
+
                     <ToastContainer />
+
+
 
                 </>
             </div>

@@ -1,4 +1,4 @@
-import Navbar from "./Navbar"
+import Navbar1 from "./Navbar1"
 import Email from "../Email"
 import End from "../End"
 import Backroundimg from "./Backroundimg"
@@ -11,7 +11,7 @@ return(
     
     
 <br /><br />
-<Navbar /><br />
+<Navbar1 /><br />
 <Backroundimg /> <br /><br /><br />
 
 <h1 className="col-md-12 text-center">Daily Update</h1><br />

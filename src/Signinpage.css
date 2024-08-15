@@ -5,7 +5,6 @@
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    padding: 50px;
     font-style: italic;
 
 
@@ -15,7 +14,7 @@
     background-color: rgb(233, 214, 187);
     color: rgb(179, 0, 0);
     font-style: oblique;
-
+    font-size: 25px;
     border-radius: 1px;
     border-top: none;
     border-left: none;
@@ -46,14 +45,22 @@
     color: black;
     background-color: rgb(223, 209, 188);
     border: none;
-    
+
     width: 450px;
     height: 600px;
     margin-top: 1px;
-    margin-left: 500px;
-    box-shadow: 0 0 100px 0  goldenrod;
+    margin-left: 560px;
+    box-shadow: 0 0 100px 0 goldenrod;
 }
 
 .one {
-    margin-right: 280px;
+    margin-right: 7px;
+    font-size: 30px;
+}
+
+
+
+#font {
+    font-size: 16px;
+
 }

@@ -1,49 +1,53 @@
 
 .container-fluid{
-    background-color: rgb(243, 117, 71);
+    background-color:rgb(98,158,95);
     text-align: center;
     color: whitesmoke;
-    border-radius: 100px;
+    
     
     
 }
 
 .color1{
     color: whitesmoke;
-    background-color: #7CCF59 ;
+    background-color: rgb(63,167,47) ;
+    font-weight: bold;
     border-radius: 100px;
 }
 
 .color2{
     color: aliceblue;
-    background-color:#FF0000;
+    background-color:rgb(255,138,0);
+    font-weight: bold;
     border-radius: 100px;
     /* font-size: large; */
 }
 
 
 .color3{
-    color: black;
+    color:rgb(42,41,59) ;
     border-radius: 20px;
     font-size: large;
+    font-weight: bold;
 }
 
 .color4 {
-    background-color: #FF0000;
+    background-color:rgb(42,41,59) ;
     color: antiquewhite;
     border-radius: 40px;
     width: 80px;
     height: 50px;
+    font-weight: bold;
 }
 
 .color4:hover{
-    background-color: #640303;
+    background-color: rgb(219,172,53);
 }
 
 
 
 .card-text{
-    color:  #FF3300;
+    color:  yellow;
     /* font-size: 20px; */
     font-weight: 100%;
 }
@@ -51,4 +55,20 @@
 .title{
     color: #7CCF59;
     font-size: 80px;
+}
+
+#aa{
+    background-color: rgb(42,41,59);
+    color: wheat;
+    /* box-shadow: 0 0 0 5px yellow; */
+}
+
+ 
+#mm{
+    background-color: rgb(120,167,115);
+    border: 3px solid rgb(120,167,115) ;
+    box-sizing: content-box;
+    border-radius: 39px;
+    color:whitesmoke;
+    box-shadow: 2px 0 80px 0 #54ff0b;
 }

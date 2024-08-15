@@ -1,24 +1,26 @@
 import "./BackroundStyle.css"
 
 
-function Backroundimg(){
+function Backroundimg() {
 
 
-    return(
+    return (
         <>
-<section className="container1">
-    <div className="row justify-content-around">
-<div className="col-md-12">
-    <div className=" menu">
-<h1>100% Fresh & Organic Foods</h1>
-<h6>We Deliver Organic vegtables 
-    & Fruites
-</h6>
-<button>View Details</button>
-</div>
-</div>
-    </div>
-</section>
+            <div className="container-fluid0 bg-img">
+                <div className="cont">
+                    <div className="row justify-content-around ">
+                        <div className=" col-10">
+                            <div className=" menu">
+                                <div>100% Fresh & Organic Foods</div>
+                                <div>We Deliver Organic vegtables
+                                    & Fruites
+                                </div><br></br>
+                                <button>View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </>
     )

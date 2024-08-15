@@ -15,43 +15,51 @@ function Vegtable() {
 
 
     img: "https://preview.colorlib.com/theme/vegefoods/images/product-1.jpg  ",
+    name:"Bell Pepper",
     price: "$50",
     quantity: 1
   },
 
   {
     img: "https://preview.colorlib.com/theme/vegefoods/images/product-2.jpg",
+    name:"Strawberry",
     price: "$100",
     quantity: 1
   },
   {
     img: "https://preview.colorlib.com/theme/vegefoods/images/product-3.jpg",
+    name:"Green Beans",
     price: "$10",
     quantity: 1
   },
   {
     img: "https://preview.colorlib.com/theme/vegefoods/images/product-4.jpg",
+    name:"Purple Cabbage",
     price: "$40",
     quantity: 1
   },
   {
     img: "https://preview.colorlib.com/theme/vegefoods/images/product-5.jpg",
+    name:"Tomatoe",
     price: "$60",
     quantity: 1
   },
   {
     img: "https://preview.colorlib.com/theme/vegefoods/images/product-6.jpg",
+    name:"Brocolli",
     price: "$70",
     quantity: 1
 
   },
   {
     img: "https://preview.colorlib.com/theme/vegefoods/images/product-7.jpg",
+    name:"Carrots",
     price: "$40",
     quantity: 1
   },
   {
     img: "https://preview.colorlib.com/theme/vegefoods/images/product-8.jpg",
+    name:"Fruit Juice",
     price: "$30",
     quantity: 1
   }
@@ -111,8 +119,8 @@ function Vegtable() {
   return (
     <>
     
-      <Button variant="danger col-md-12 text-center" onClick={handleShow}>
-      <i class="bi bi-bag-heart"></i><h1>Order Items</h1>
+      <Button id="aa" variant=" col-md-12 text-center" onClick={handleShow}>
+      <i id="aa" class="bi bi-bag-heart"></i><h1>Order Items</h1>
       </Button>
 
       <Offcanvas show={show} onHide={handleClose}>
@@ -123,11 +131,12 @@ function Vegtable() {
           {isTrue.map((item, index) => (
 
 
-            <div className="col-md-3  mt-5 ">
+            <div id="bb" className="col-md-3  mt-5 ">
               
-              <div className="card border-redious-shadow" style={{ width: ' 19rem' }} >
+              <div  className="card border-redious-shadow" style={{ width: ' 19rem' }} >
                 <img src={item.img} className="card-img-top img-fluid " />
                 <div className="card-body">
+                  <h2>{item.name}</h2>
                   <h4 className="card-text">{item.price}</h4><br />
                   <button className="color1" onClick={() => add(index)} >+</button>
                   <span className="color3">{item.quantity}</span>
@@ -139,6 +148,7 @@ function Vegtable() {
 
 
               </div>
+
 
 
 
@@ -163,9 +173,10 @@ function Vegtable() {
 
             <div className="col-md-3  mt-5 ">
 
-              <div className="card border-redious-shadow" style={{ width: ' 19rem' }} >
-                <img src={item.img} className="card-img-top img-fluid " />
+              <div id="mm" className="card border-redious-shadow" style={{ width: ' 21rem' }}  >
+                <img id="mm" src={item.img} className="card-img-top img-fluid " />
                 <div className="card-body">
+                  <h2>{item.name}</h2>
                   <h4 className="card-text">{item.price}</h4><br />
                   <button className="color1" onClick={() => add(index)} >+</button>
                   <span className="color3">{item.quantity}</span>

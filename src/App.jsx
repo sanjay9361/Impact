@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-
 import NewPage from "../NewPage"
 import Home from "./Home"
 import SignInpage from "./SignInpage"
 import NextPage from "./NextPage"
 import Vegtable from "../Vegtable"
+import Signup from "./Signup"
 
 
 
@@ -25,7 +25,7 @@ function App() {
         <Route path="/NewPage" element={<NewPage />}></Route>
         <Route path="/Nextpage" element={<NextPage />}></Route>
         <Route path="/Vegtable" element={<Vegtable />}></Route>
-        
+        <Route path="/Signup" element={<Signup/>}></Route>
 
       </Routes>
 
