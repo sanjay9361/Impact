@@ -97,14 +97,14 @@ const SignInpage = () => {
     return (
 
         <div className="signincontainer">
-            <div className="row justify-content-center">
+            <div className="row justify-content-around mt-3">
                 <>
 
 
 
-                    <div className="col-md-6 text-center mt-5 mb-5">
+              
 
-
+                    <div className=" col-md-12 col-9 text-center">
                         <div id="bbb" className="card" >
                             <div className="card-body">
                                 <h1 className="card-title">Login</h1><br />
@@ -154,8 +154,8 @@ const SignInpage = () => {
 
                             </div>
                         </div>
-
-                    </div>
+                        </div>
+                    
 
                     <ToastContainer />
 

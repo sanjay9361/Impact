@@ -133,8 +133,8 @@ function Vegtable() {
 
             <div id="bb" className="col-md-3  mt-5 ">
               
-              <div  className="card border-redious-shadow" style={{ width: ' 19rem' }} >
-                <img src={item.img} className="card-img-top img-fluid " />
+              <div id="mm" className="card border-redious-shadow" style={{ width: ' 17rem' }} >
+                <img id="mm" src={item.img} className="card-img-top img-fluid " />
                 <div className="card-body">
                   <h2>{item.name}</h2>
                   <h4 className="card-text">{item.price}</h4><br />
@@ -173,7 +173,7 @@ function Vegtable() {
 
             <div className="col-md-3  mt-5 ">
 
-              <div id="mm" className="card border-redious-shadow" style={{ width: ' 21rem' }}  >
+              <div id="mm" className="card border-redious-shadow" style={{ width: ' 17rem' }}  >
                 <img id="mm" src={item.img} className="card-img-top img-fluid " />
                 <div className="card-body">
                   <h2>{item.name}</h2>

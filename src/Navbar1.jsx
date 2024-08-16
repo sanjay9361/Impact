@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import "./Nav.css"
 
 function Navbar1() {
 
@@ -15,7 +15,7 @@ function Navbar1() {
       <section className="container-fluid2">
         <div className="row justify-content-around">
           <div className=" col-12 col-md-3 order-md-1 order-2 text-center">
-          <Navbar.Brand href="#home" style={{fontSize:"80px",color:"red"} }>VEG FOODS</Navbar.Brand>
+          <Navbar.Brand href="#home" id="nav">VEG FOODS</Navbar.Brand>
 
           </div>
 

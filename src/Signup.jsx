@@ -7,10 +7,10 @@ function Signup(){
 
 return(
 <div className="signincontainer">
-<div className="row justify-content-center">
+<div className="row justify-content-around mt-5">
     <>
-    <div className="col-md-6 text-center mt-5 mb-5">
-    <Card id='bbb' style={{ width: '20rem' }}>
+    <div className="col-md-6 text-center">
+    <Card id='bbb' style={{ width: '17rem' }}>
         
       <Card.Body>
         <Card.Title>Signup</Card.Title>
@@ -21,7 +21,7 @@ return(
       </Card.Body>
     </Card>
     </div>
-    </>
+    </>zz
     </div>
     </div>
 )

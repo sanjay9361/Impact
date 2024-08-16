@@ -1,17 +1,11 @@
-.signincontainer {
-    background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-food-food-festival-retro-style-food-picture-image_1029115.jpg");
-    background-position: center;
-    text-align: center;
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: cover;
-    font-style: italic;
-
-
+.signincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .vtv {
-    background-color: rgb(233, 214, 187);
+    /* background-color: rgb(233, 214, 187); */
     color: rgb(179, 0, 0);
     font-style: oblique;
     font-size: 25px;
@@ -26,7 +20,7 @@
 }
 
 .vtv1 {
-    background-color: rgb(223, 209, 188);
+    /* background-color: rgb(223, 209, 188); */
     font-style: italic;
 
     color: rgb(34, 5, 139);
@@ -43,13 +37,13 @@
 
 #bbb {
     color: black;
-    background-color: rgb(223, 209, 188);
+    /* background-color: rgb(223, 209, 188); */
     border: none;
 
     width: 450px;
-    height: 600px;
-    margin-top: 1px;
-    margin-left: 560px;
+    height: 620px;
+
+
     box-shadow: 0 0 100px 0 goldenrod;
 }
 
