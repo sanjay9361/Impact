@@ -112,7 +112,7 @@ const SignInpage = () => {
 
                                 <div>
                                     <div id="ball">
-                                        <small className="one">Username</small><br /><br />
+                                        <small className="one">Username</small><br />
                                         <i id="font" class="bi bi-person-fill"></i>
                                         <input className="vtv" type="text" name="name" placeholder="enter your name" value={ten.name} onChange={setvalue} />
 
@@ -122,7 +122,7 @@ const SignInpage = () => {
 
                                 <div><br /><br />
                                     <div id="bat">
-                                        <small className="one">Password</small><br /><br />
+                                        <small className="one">Password</small><br />
                                         <i id="font" class="bi bi-person-fill-lock"></i>
                                         <input className="vtv" type="text" name="password" placeholder="enter your password" value={ten.password} onChange={setvalue} /><br />
                                     </div>

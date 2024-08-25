@@ -1,7 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
+  plugins: [react({
+    // Disable React Refresh
+    // Uncomment the next line to disable React Refresh temporarily
+    // fastRefresh: false
+  })],
+});

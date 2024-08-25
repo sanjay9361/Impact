@@ -1,11 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import NewPage from "../NewPage"
+import NewPage from "./NewPage"
 import Home from "./Home"
 import SignInpage from "./SignInpage"
 import NextPage from "./NextPage"
-import Vegtable from "../Vegtable"
+import Vegtable from "./Vegtable"
 import Signup from "./Signup"
+// import Menu from "./Menu"
 
 
 
