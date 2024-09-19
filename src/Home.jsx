@@ -2,8 +2,7 @@ import Navbar1 from "./Navbar1"
 import Email from "../Email"
 import End from "../End"
 import Backroundimg from "./Backroundimg"
-import Date from "../Date"
-
+import Datebase from "./Datebase"
 function Home(){
    
 return(
@@ -17,7 +16,7 @@ return(
 <h1 className="col-md-12 text-center">Daily Update</h1><br />
         {/* <Fruit/><br /><br /> */}
         {/* <Vegtable /><br /><br /><br /> */}
-        <Date /><br />
+        <Datebase /><br />
         {/* <Customer/><br /><br /> */}
         {/* <Icon/><br /><br /><br /><br /> */}
         <Email /><br /><br />

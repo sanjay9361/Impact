@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* height: 700px; */
 }
 
 .vtv {
@@ -9,11 +10,11 @@
     color: rgb(179, 0, 0);
     font-style: oblique;
     font-size: 25px;
-    border-radius: 1px;
+    border-radius: 3px;
     border-top: none;
     border-left: none;
     border-right: none;
-    width: 300px;
+    width: 290px;
 
 
 
@@ -41,7 +42,7 @@
     border: none;
 
     width: 350px;
-    height: 620px;
+    height: 550px;
 
 
     box-shadow: 0 0 11px 0 rgb(2, 247, 2);
