@@ -8,6 +8,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import "./Signinpage.css"
+import Navbar1 from "./Navbar1";
 
 
 const SignInpage = () => {
@@ -51,7 +52,7 @@ const SignInpage = () => {
         if (ten.name == null || ten.name == '') {
             useerror.innerHTML = ("user input the name box")
             useerror.style.color = "red"
-
+            alert = (toast.warning("please input the box!"));
             passerror.innerHTML = ("user input the  password box")
             passerror.style.color = "red"
         }
@@ -105,8 +106,8 @@ const SignInpage = () => {
               
 
                     <div className=" col-md-12 col-9 text-center">
-                        <div id="bbb" className="card" >
-                            <div className="card-body">
+                        {/* <div id="bbb" className="card" >
+                            <div className="card-body"> */}
                                 <h1 className="card-title">Login</h1><br />
                                 <h6 className="card-subtitle mb-2 text-body-secondary">Fresh Fruites & Vegtables</h6><br />
 
@@ -131,10 +132,12 @@ const SignInpage = () => {
 
 
                                 <br />
-                                <h4><button className="vtv1 " onClick={direct}>Login </button><br />
+                                <div className="effect">
+                                <button className="btn" onClick={direct}>Login </button><br />
+                                </div>
                                     <br />
 
-
+                                    <h4>
                                     <div className="row justify-content-center">
                                         <div className="col-md-2">
                                             <h4><i class="bi bi-facebook"></i></h4>
@@ -153,8 +156,8 @@ const SignInpage = () => {
 
 
                             </div>
-                        </div>
-                        </div>
+                        {/* </div>
+                        </div> */}
                     
 
                     <ToastContainer />

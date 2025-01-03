@@ -4,6 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import "./Nav.css"
+import { useState } from "react";
+import NextPage from "./NextPage";
 
 function Navbar1() {
 
@@ -27,19 +29,12 @@ function Navbar1() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-          <Link to={"/"} > <Nav.Link href="#home">Home</Nav.Link></Link>
+          <Link to={"/Home"} > <Nav.Link href="#home">Home</Nav.Link></Link>
 
            <Link to={"/Vegtable"}> <Nav.Link href="#link">Shopping Items</Nav.Link> </Link>
             <NavDropdown title="History" id="basic-nav-dropdown">
             <Link to={"/NextPage"}> <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item></Link>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+           
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

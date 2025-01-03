@@ -1,8 +1,9 @@
 import Navbar1 from "./Navbar1"
-import Email from "../Email"
-import End from "../End"
 import Backroundimg from "./Backroundimg"
 import Datebase from "./Datebase"
+import Email from "./Email"
+import End from "./End"
+
 function Home(){
    
 return(

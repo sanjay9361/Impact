@@ -4,10 +4,9 @@ import "./Vegtable.css"
 import NewPage from "./NewPage"
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import  Navbar1  from "./Navbar1";
 function Vegtable() {
 
   const [picture, photo] = useState([{
@@ -131,7 +130,9 @@ function Vegtable() {
 
 
   return (
-    <>
+   <>
+   <Navbar1/>
+   
 
       <Button id="aa" variant=" col-md-4 text-center" onClick={handleShow}>
         <i id="aa" class="bi bi-bag-heart"></i><h1>Order Items</h1>
@@ -203,8 +204,8 @@ function Vegtable() {
                   <button className="color2" onClick={() => decrement(index)} >-</button><br /><br />
 
 
-                  <button className="color4" onClick={() => myfunc(item)}>ADD To</button>
-                  <ToastContainer />
+                  <button className="color4" onClick={() => myfunc(item)} >ADD To</button>
+                 
                 </div>
 
 
@@ -220,7 +221,7 @@ function Vegtable() {
         </div><br /><br />
       </div><br /><br />
       <NewPage isTrue={isTrue} />
-
+      <ToastContainer />
 
     </>
   )
@@ -231,5 +232,6 @@ function Vegtable() {
 
 
 export default Vegtable
+
 
 

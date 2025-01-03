@@ -15,7 +15,7 @@ function Backroundimg() {
                                 <div>We Deliver Organic vegtables
                                     & Fruites
                                 </div><br></br>
-                                <button>View Details</button>
+                                {/* <button>View Details</button> */}
                             </div>
                         </div>
                     </div>

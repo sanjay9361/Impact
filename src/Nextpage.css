@@ -1,0 +1,27 @@
+
+
+.cg-img{
+    background-image: url("https://preview.colorlib.com/theme/vegefoods/images/bg_1.jpg.webp");
+background-repeat: no-repeat;
+text-align: center;
+position: relative;
+
+height:70vh;
+background-size: cover;
+
+}
+
+.cards{
+    color: rgb(236, 156, 8);
+    text-shadow: none;
+    padding-top: 150px;
+    font-size: 40px;
+    font-display: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.heading{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
